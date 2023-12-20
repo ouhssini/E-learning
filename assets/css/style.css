@@ -1,7 +1,21 @@
   /* colors and variables */
 :root {
-  --main-color:red;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e67e22;
+    --background-color: #f8f9fa;
+    --text-color: #333333;
 }
+
+/* Dark Mode Colors */
+:root.dark-mode {
+    --primary-color: #2980b9;
+    --secondary-color: #27ae60;
+    --accent-color: #d35400;
+    --background-color: #2c3e50;
+    --text-color: #ecf0f1;
+  }
+  
 
   /*  resete the browser default parameters */
 * {
@@ -9,4 +23,18 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: poppins;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 1920px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0 auto;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
