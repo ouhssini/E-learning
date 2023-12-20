@@ -1,0 +1,12 @@
+  /* colors and variables */
+:root {
+  --main-color:red;
+}
+
+  /*  resete the browser default parameters */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
